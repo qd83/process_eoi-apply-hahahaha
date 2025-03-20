@@ -33,97 +33,113 @@ $other_skills = $_POST["other_skills"];
 
 if (isset($_POST["FTD23_skill1"])) {
     $FTD23_skill1 = $_POST["FTD23_skill1"];
-} else {
+}
+if (empty($_POST["FTD23_skill1"])) {
     $FTD23_skill1 = null;
 }
 
 if (isset($_POST["FTD23_skill2"])) {
     $FTD23_skill2 = $_POST["FTD23_skill2"];
-} else {
+}
+if (empty($_POST["FTD23_skill2"])) {
     $FTD23_skill2 = null;
 }
 
 if (isset($_POST["FTD23_skill3"])) {
     $FTD23_skill3 = $_POST["FTD23_skill3"];
-} else {
+}
+if (empty($_POST["FTD23_skill3"])) {
     $FTD23_skill3 = null;
 }
 
 if (isset($_POST["FTD23_skill4"])) {
     $FTD23_skill4 = $_POST["FTD23_skill4"];
-} else {
+}
+if (empty($_POST["FTD23_skill4"])) {
     $FTD23_skill4 = null;
 }
 
 if (isset($_POST["FTD23_skill5"])) {
     $FTD23_skill5 = $_POST["FTD23_skill5"];
-} else {
+}
+if (empty($_POST["FTD23_skill5"])) {
     $FTD23_skill5 = null;
 }
 
 if (isset($_POST["FTD23_skill6"])) {
     $FTD23_skill6 = $_POST["FTD23_skill6"];
-} else {
+}
+if (empty($_POST["FTD23_skill6"])) {
     $FTD23_skill6 = null;
 }
 
 if (isset($_POST["FTD23_skill7"])) {
     $FTD23_skill7 = $_POST["FTD23_skill7"];
-} else {
+}
+if (empty($_POST["FTD23_skill7"])) {
     $FTD23_skill7 = null;
 }
 
 if (isset($_POST["FTD23_skill8"])) {
     $FTD23_skill8 = $_POST["FTD23_skill8"];
-} else {
+}
+if (empty($_POST["FTD23_skill8"])) {
     $FTD23_skill8 = null;
 }
 
 if (isset($_POST["FTD23_skill9"])) {
     $FTD23_skill9 = $_POST["FTD23_skill9"];
-} else {
+}
+if (empty($_POST["FTD23_skill9"])) {
     $FTD23_skill9 = null;
 }
 
 if (isset($_POST["AIE45_skill1"])) {
     $AIE45_skill1 = $_POST["AIE45_skill1"];
-} else {
+}
+if (empty($_POST["AIE45_skill1"])) {
     $AIE45_skill1 = null;
 }
 
 if (isset($_POST["AIE45_skill2"])) {
     $AIE45_skill2 = $_POST["AIE45_skill2"];
-} else {
+}
+if (empty($_POST["AIE45_skill2"])) {
     $AIE45_skill2 = null;
 }
 
 if (isset($_POST["AIE45_skill3"])) {
     $AIE45_skill3 = $_POST["AIE45_skill3"];
-} else {
+}
+if (empty($_POST["AIE45_skill3"])) {
     $AIE45_skill3 = null;
 }
 
 if (isset($_POST["AIE45_skill4"])) {
     $AIE45_skill4 = $_POST["AIE45_skill4"];
-} else {
+}
+if (empty($_POST["AIE45_skill4"])) {
     $AIE45_skill4 = null;
 }
 
 if (isset($_POST["AIE45_skill5"])) {
     $AIE45_skill5 = $_POST["AIE45_skill5"];
-} else {
+}
+if (empty($_POST["AIE45_skill5"])) {
     $AIE45_skill5 = null;
 }
 
 if (isset($_POST["AIE45_skill6"])) {
     $AIE45_skill6 = $_POST["AIE45_skill6"];
-} else {
+}
+if (empty($_POST["AIE45_skill6"])) {
     $AIE45_skill6 = null;
 }
 
 if (isset($_POST["AIE45_skill7"])) {
     $AIE45_skill7 = $_POST["AIE45_skill7"];
-} else {
+}
+if (empty($_POST["AIE45_skill7"])) {
     $AIE45_skill7 = null;
 }
 
